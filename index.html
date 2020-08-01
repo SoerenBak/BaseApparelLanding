@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
   <link href="assets/styles/styles.css" rel="stylesheet">
   <title>Base Apparel</title>
 </head>
@@ -12,31 +12,26 @@
 
   <div class="container">
     <div class="left">
-      <img src="/assets/images/logo.svg" class="logo" alt="logo">
       <div class="inner-container">
-        <h1><span>We're</span><br>coming<br> soon</h1>
+        <img class="logo" src="assets/images/logo.svg" alt="logo" />
+        <img class="bg-mobile" src="assets/images/hero-mobile.jpg" alt="background mobile"/>
+        <h1>
+          <span>We're</span><br />coming<br />soon
+        </h1>
         <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
-        
-        <form action="">
-          <input type="email" placeholder="Email Address">
-          <img class="error-icon" src="/assets/images/icon-error.svg" alt="error">
+        <form id="form">
+          <input id="email" type="email" placeholder="Email Address" />
+          <img class="error-icon" src="/assets/images/icon-error.svg" alt="error" />
           <button>
-            <img src="/assets/images/icon-arrow.svg" alt="arrow">
+            <img src="assets/images/icon-arrow.svg" alt="arrow" />
           </button>
           <small>Please provide a valid email</small>
         </form>
       </div>
     </div>
-
-    <div class="right bg-image">
-
-    </div>
+    <div class="right bg-image"></div>
   </div>
 
-
-
-
-
-
+<script src="/assets/js/scripts.js"></script>
 </body>
 </html>
